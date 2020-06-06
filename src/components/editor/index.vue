@@ -18,16 +18,16 @@ import editorDefault from './base/editor-defaults';
 import { data } from '@/data/editor';
 
 @Component({
-  name: 'editor',
-  components: {
-    Layout
-  }
+    name: 'editor',
+    components: {
+        Layout
+    }
 })
 export default class Editor extends BaseComponet {
     private global = merge({}, editorDefault.global, data.global);
     // private layouts = data.layouts.map(())
     private mounted() {
-      console.log(data);
+        console.log(data);
     }
 }
 </script>

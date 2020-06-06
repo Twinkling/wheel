@@ -6,7 +6,7 @@
 import { BaseComponet, Component } from '@/components/base-component';
 
 @Component({
-  name: 'layout'
+    name: 'layout'
 })
 export default class Layout extends BaseComponet {}
 </script>

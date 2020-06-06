@@ -21,7 +21,6 @@ module.exports = {
 
         camelcase: 0,
         // 和 typescript-eslint 冲突
-        indent: 0,
         'keyword-spacing': ['error', {
             before: true,
             after: true,

@@ -9,10 +9,10 @@ import { BaseComponet, Component } from '@/components/base-component';
 import Editor from '@/components/editor/index.vue';
 
 @Component({
-       name: 'program-editor',
-  components: {
-    Editor
-  }
+    name: 'program-editor',
+    components: {
+        Editor
+    }
 })
 export default class ProgramEditor extends BaseComponet {}
 </script>
