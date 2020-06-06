@@ -1,24 +1,24 @@
 # wheel
 
-## Project setup
-```
+## 依赖安装
+```shell
 yarn install
 ```
 
-### Compiles and hot-reloads for development
-```
+## 开发/运行
+```shell
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
+## 构建
+```shell
 yarn build
 ```
 
-### Lints and fixes files
-```
+## 代码风格校验及修复
+```shell
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## commit 规范
+[规范参考](https://www.conventionalcommits.org/en/v1.0.0/)
