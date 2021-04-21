@@ -1,5 +1,5 @@
 {
-  "name": "cook-book",
+  "name": "wheel",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -36,7 +36,7 @@
     "lint-staged": "^9.5.0",
     "vue-template-compiler": "^2.6.11"
   },
-  "_id": "cook-book@0.1.0",
+  "_id": "wheel@0.1.0",
   "gitHooks": {
     "pre-commit": "lint-staged"
   },

@@ -1,24 +1,24 @@
-# cook-book
+# Wheel
 
-## Project setup
+## 依赖安装
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+yarn
 ```
 
-### Compiles and minifies for production
+### 开发/运行
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+yarn serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 构建
+```
+yarn build
+```
+
+### 代码风格校验及修复
+```
+yarn lint
+```
+
+### commit 规范
+[规范参考](https://www.conventionalcommits.org/)

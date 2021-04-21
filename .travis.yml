@@ -1,0 +1,30 @@
+sudo: false,
+language: node_js
+node_js:
+  - 10 # use nodejs v10 LTS
+cache: npm
+branches:
+  only:
+    - main # build main branch only
+script:
+  - npm run build # generate static files
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_TOKEN
+  repo: Twinkling/wheel
+  keep-history: true
+  target_branch: gh-pages
+  allow_empty_commit: true
+  on:
+    branch: main
+  local-dir: dist
+
+notifications: 
+  email:
+    recipients:
+      - twinkling8023@gmail.com
+      - xiaotian160226@163.com
+    on_success: always # default: change
+    on_failure: always # default: always
