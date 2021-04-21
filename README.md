@@ -1,4 +1,5 @@
-# Wheel
+# Wheel 
+[![Build Status](https://travis-ci.com/Twinkling/wheel.svg?branch=master)](https://travis-ci.com/Twinkling/wheel)
 
 ## 依赖安装
 ```

@@ -5,7 +5,7 @@ node_js:
 cache: npm
 branches:
   only:
-    - main # build main branch only
+    - master # build master branch only
 script:
   - npm run build # generate static files
 
@@ -18,7 +18,7 @@ deploy:
   target_branch: gh-pages
   allow_empty_commit: true
   on:
-    branch: main
+    branch: master
   local-dir: dist
 
 notifications: 
