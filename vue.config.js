@@ -1,10 +1,11 @@
-const path = require('path'); // eslint-disable-line
+const isDev = process.env.NODE_ENV === 'development'
 
 module.exports = {
   runtimeCompiler: true,
 
+  publicPath: isDev ? '/' : '/wheel/',
   configureWebpack: {
-    devtool: process.env.NODE_ENV === 'development' ? 'source-map' : false,
+    devtool: isDev ? 'source-map' : false,
     output: { // 输出重构  打包编译后的 文件名称
       filename: 'js/[name].[hash].js',
       chunkFilename: 'js/[name].[hash].js'
